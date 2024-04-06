@@ -12,9 +12,6 @@ class NotificationView(APIView):
                 {
                     'type': 'send_notification',
                     'message': message
-
-
-                    
                 }
             )
             return Response({'message': 'Notification sent.'})
